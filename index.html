@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Penumpang Angkot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="title-container">
+                <h1>Manajemen Penumpang Angkot</h1>
+                <p>Kelola penumpang angkot dengan mudah!</p>
+            </div>
+        </header>
+        <main>
+            <section class="form-section">
+                <input type="text" id="namaPenumpang" class="input-field" placeholder="Masukkan Nama Penumpang">
+                <div class="button-container">
+                    <button id="btnTambah" class="btn btn-add">Tambah</button>
+                    <button id="btnHapus" class="btn btn-remove">Hapus</button>
+                </div>
+            </section>
+            <section class="list-section">
+                <h2>Daftar Penumpang</h2>
+                <ul id="penumpangList" class="penumpang-list"></ul>
+                <p id="kapasitas">Kapasitas Maksimal: 10 Penumpang</p>
+                <p id="jumlahPenumpang">Jumlah Penumpang Saat Ini: 0</p>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Manajemen Angkot | Desain oleh <a href="https://github.com/Fauzan-Ilyas/">Techmakers</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
